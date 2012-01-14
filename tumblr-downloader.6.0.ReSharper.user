@@ -1,0 +1,305 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:AppSettings.Designer.cs" caret="0" fromTop="0" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Program.cs" caret="504" fromTop="20" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.Designer.cs" caret="0" fromTop="0" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:tumblr.cs" caret="806" fromTop="23" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4452" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="7" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="3" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:tumblr.cs" caret="2927" fromTop="17" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="29" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="17" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="21" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="735" fromTop="25" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4824" fromTop="24" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:tumblr.cs" caret="806" fromTop="23" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="1630" fromTop="23" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4449" fromTop="29" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4449" fromTop="34" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4420" fromTop="31" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4420" fromTop="29" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="1365" fromTop="32" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="152" fromTop="4" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="3613" fromTop="19" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4420" fromTop="43" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="3610" fromTop="10" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="3958" fromTop="15" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4197" fromTop="19" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="2264" fromTop="22" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4969" fromTop="25" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="3485" fromTop="40" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5118" fromTop="31" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="1244" fromTop="34" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="2758" fromTop="20" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5390" fromTop="38" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="5440" fromTop="8" />
+      <File id="EFECE4FD-E204-4D56-B383-59C246E16B76/f:Form1.cs" caret="4452" fromTop="8" />
+    </RecentEdits>
+  </RecentFiles>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="SelectFolderDialog" priority="95" />
+      <Item value="selectFolder" priority="31" />
+      <Item value="this" priority="95" />
+      <Item value="Application`0" priority="31" />
+      <Item value="SettingsBindableAttribute`0" priority="31" />
+      <Item value="AppSettings`0" priority="159" />
+      <Item value="public" priority="95" />
+      <Item value="Tumblr`0" priority="31" />
+      <Item value="string" priority="350" />
+      <Item value="prop" priority="31" />
+      <Item value="User" priority="95" />
+      <Item value="username" priority="95" />
+      <Item value="String`0" priority="63" />
+      <Item value="private" priority="159" />
+      <Item value="Uri`0" priority="191" />
+      <Item value="null" priority="63" />
+      <Item value="URL" priority="63" />
+      <Item value="new" priority="543" />
+      <Item value="Uri" priority="86" />
+      <Item value="using" priority="340" />
+      <Item value="System" priority="217" />
+      <Item value="Xml" priority="80" />
+      <Item value="Linq" priority="26" />
+      <Item value="Serialization" priority="53" />
+      <Item value="XmlDocument`0" priority="159" />
+      <Item value="return" priority="63" />
+      <Item value="XmlDocument" priority="57" />
+      <Item value="List" priority="250" />
+      <Item value="var" priority="767" />
+      <Item value="Hammock" priority="152" />
+      <Item value="Model" priority="53" />
+      <Item value="Streaming" priority="26" />
+      <Item value="RestClient" priority="25" />
+      <Item value="hm" priority="31" />
+      <Item value="client" priority="191" />
+      <Item value="RestRequest" priority="28" />
+      <Item value="request" priority="191" />
+      <Item value="int" priority="31" />
+      <Item value="for" priority="159" />
+      <Item value="NullReferenceException`0" priority="63" />
+      <Item value="RestResponse" priority="28" />
+      <Item value="response" priority="159" />
+      <Item value="tumblr_downloader" priority="30" />
+      <Item value="Tumblr" priority="29" />
+      <Item value="usernamBox" priority="63" />
+      <Item value="tm" priority="31" />
+      <Item value="allImages" priority="575" />
+      <Item value="Web" priority="26" />
+      <Item value="HammockXmlSerializer" priority="28" />
+      <Item value="XmlWriterSettings`0" priority="31" />
+      <Item value="XmlWriterSettings" priority="28" />
+      <Item value="xml" priority="31" />
+      <Item value="test" priority="63" />
+      <Item value="JsonParser" priority="28" />
+      <Item value="serializer" priority="63" />
+      <Item value="t" priority="63" />
+      <Item value="firstResponse" priority="63" />
+      <Item value="Convert`0" priority="63" />
+      <Item value="max" priority="31" />
+      <Item value="IDictionary" priority="64" />
+      <Item value="sDictionary" priority="32" />
+      <Item value="object" priority="223" />
+      <Item value="List&lt;Uri&gt;" priority="28" />
+      <Item value="Object`0" priority="31" />
+      <Item value="objects" priority="32" />
+      <Item value="getUrls`0" priority="31" />
+      <Item value="Dictionary" priority="228" />
+      <Item value="dictionary" priority="96" />
+      <Item value="foreach" priority="223" />
+      <Item value="o" priority="159" />
+      <Item value="as" priority="127" />
+      <Item value="JsonObject`0" priority="31" />
+      <Item value="IEnumerable" priority="65" />
+      <Item value="o1" priority="127" />
+      <Item value="posts" priority="191" />
+      <Item value="IEnumerable`0" priority="64" />
+      <Item value="x" priority="191" />
+      <Item value="KeyValuePair" priority="95" />
+      <Item value="ReadOnlyCollectionBase`0" priority="31" />
+      <Item value="Enumerable`0" priority="32" />
+      <Item value="DictionaryBase`0" priority="32" />
+      <Item value="list" priority="63" />
+      <Item value="temp" priority="31" />
+      <Item value="i" priority="94" />
+      <Item value="if" priority="223" />
+      <Item value="uri" priority="62" />
+      <Item value="try" priority="31" />
+      <Item value="else" priority="63" />
+      <Item value="void" priority="31" />
+      <Item value="url" priority="31" />
+      <Item value="image" priority="95" />
+      <Item value="textBox1" priority="31" />
+      <Item value="Last`1" priority="26" />
+      <Item value="FileName" priority="62" />
+      <Item value="FileWebRequest`0" priority="31" />
+      <Item value="FileWebRequest" priority="58" />
+      <Item value="WebRequest`0" priority="28" />
+      <Item value="Form1`0" priority="31" />
+      <Item value="fetchXml`0" priority="63" />
+      <Item value="Completed`0" priority="32" />
+      <Item value="progressBar" priority="63" />
+      <Item value="pathBox" priority="31" />
+      <Item value="IObservable" priority="31" />
+      <Item value="ThreadExceptionDialog`0" priority="63" />
+      <Item value="totalImagesLbl" priority="63" />
+      <Item value="imgs" priority="127" />
+      <Item value="Collections" priority="53" />
+      <Item value="Concurrent" priority="26" />
+      <Item value="Specialized" priority="26" />
+      <Item value="BackgroundWorker" priority="29" />
+      <Item value="bgw" priority="31" />
+      <Item value="backgroundWorker1" priority="62" />
+      <Item value="while" priority="31" />
+      <Item value="Timer" priority="29" />
+      <Item value="timer1" priority="63" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.FolderBrowserDialog">
+      <Item value="ShowDialog`0" priority="26" />
+      <Item value="SelectedPath" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Button">
+      <Item value="Text" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToString`0" priority="107" />
+      <Item value="Replace`0" priority="107" />
+      <Item value="ToList`1" priority="26" />
+      <Item value="ToDictionary`2" priority="26" />
+      <Item value="Remove`0" priority="26" />
+      <Item value="Select`2" priority="26" />
+      <Item value="LastIndexOf`0" priority="26" />
+      <Item value="EndsWith`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@tumblr_downloader.AppSettings">
+      <Item value="Default" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:tumblr_downloader.AppSettings">
+      <Item value="downlaodpath" priority="107" />
+      <Item value="Save`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hammock.RestClient">
+      <Item value="AddParameter`0" priority="26" />
+      <Item value="Authority" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Uri">
+      <Item value="ToString`0" priority="80" />
+      <Item value="Segments" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hammock.RestRequest">
+      <Item value="AddHeader`0" priority="80" />
+      <Item value="AddParameter`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:tumblr_downloader.Tumblr">
+      <Item value="fetchXml`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hammock.RestResponse">
+      <Item value="Content" priority="134" />
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Hammock.Serialization.HammockXmlSerializer">
+      <Item value="DeserializeDynamic`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Hammock.Serialization.JsonParser">
+      <Item value="FromJson`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IDictionary`2">
+      <Item value="Indexer" priority="53" />
+      <Item value="ToDictionary`2" priority="80" />
+      <Item value="Last`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="AddRange`0" priority="26" />
+      <Item value="Count" priority="107" />
+      <Item value="Add`0" priority="80" />
+      <Item value="Take`1" priority="26" />
+      <Item value="Remove`0" priority="53" />
+      <Item value="AsParallel`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Value" priority="215" />
+      <Item value="Key" priority="134" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Values" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="53" />
+      <Item value="IsNullOrWhiteSpace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebClient">
+      <Item value="Headers" priority="80" />
+      <Item value="DownloadFileCompleted" priority="53" />
+      <Item value="Dispose`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.WebHeaderCollection">
+      <Item value="Keys" priority="26" />
+      <Item value="AllKeys" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripProgressBar">
+      <Item value="Value" priority="26" />
+      <Item value="Maximum" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Threading.Thread">
+      <Item value="Sleep`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ToolStripStatusLabel">
+      <Item value="Text" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="AsEnumerable`1" priority="26" />
+      <Item value="AsParallel`1" priority="26" />
+      <Item value="Count`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.SynchronizedCollection`1">
+      <Item value="Remove`0" priority="26" />
+      <Item value="Count" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.ComponentModel.BackgroundWorker">
+      <Item value="RunWorkerAsync`0" priority="26" />
+      <Item value="IsBusy" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Start`0" priority="26" />
+      <Item value="Stop`0" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+</Configuration>
