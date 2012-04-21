@@ -6,7 +6,9 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
+using System.Security.Permissions;
 using System.Text;
 using System.Net;
 using System.Threading;
@@ -44,13 +46,12 @@ namespace tumblr_downloader
         {
             backgroundWorker1.RunWorkerAsync();
             timer1.Start();
-
         }
 
         public string User { get; set; }
         private Uri URL;
-        private SynchronizedCollection<Uri> allImages = new SynchronizedCollection<Uri>();
-
+        public SynchronizedCollection<Uri> allImages = new SynchronizedCollection<Uri>();
+        public List<Uri> allEmptyImages = new List<Uri>();
 
         public void fetchXml()
         {
@@ -81,8 +82,6 @@ namespace tumblr_downloader
 
                 getUrls(Response.ToDictionary(x => x.Key, x => x.Value));
             }
-          
-
         }
 
         private void getUrls(Dictionary<string, object> dictionary)
@@ -103,27 +102,40 @@ namespace tumblr_downloader
                     allImages.Add(new Uri(temp["photo-url-1280"].ToString()));
                 }
             }
-           
         }
-
+        
         private void DownloadFile()
         {
             if (allImages.Any())
             {
+               
                 for (int i = 0; i < allImages.Count; i++)
                 {
                     WebClient client = new WebClient();
                     client.DownloadFileCompleted += Completed;
+                  
                     string FileName = allImages[i].Segments.Last().ToString();
-                    if (FileName.EndsWith(".jpg") || FileName.EndsWith(".png") || FileName.EndsWith(".gif") )
+
+                    //this is here because some images don't have extensions
+                    if (FileName.EndsWith(".jpg") || FileName.EndsWith(".png") || FileName.EndsWith(".gif"))
                     {
-                        
-                        client.DownloadFileAsync(allImages[i],
-                                              AppSettings.Default.downlaodpath + @"\" + FileName );
+                        //check to see if the file is already there in the first place
+                        //usefull when downloading multiple blogs in the same folder
+                        if (!File.Exists(AppSettings.Default.downlaodpath + @"\" + FileName))
+                        {
+                            
+                                client.DownloadFileAsync(allImages[i], AppSettings.Default.downlaodpath + @"\" + FileName,allImages[i]);
+                          
+                        }
                     }
                     else
                     {
-                        client.DownloadFileAsync(allImages[i], AppSettings.Default.downlaodpath + @"\" + FileName+".jpg");
+                        if (!File.Exists(AppSettings.Default.downlaodpath + @"\" + FileName + ".jpg"))
+                        {
+                                client.DownloadFileAsync(allImages[i],
+                                                    AppSettings.Default.downlaodpath + @"\" + FileName + ".jpg", allImages[i]);
+                                
+                        }
                     }
                 }
             }
@@ -131,6 +143,12 @@ namespace tumblr_downloader
 
         private void Completed(object sender, AsyncCompletedEventArgs e)
         {
+            if (e.Error != null)
+            {
+                ((WebClient)sender).Dispose();
+                Uri uri = (Uri)e.UserState;
+                allEmptyImages.Add(uri);
+            }
             progressBar.Value++;
         }
 
@@ -155,9 +173,57 @@ namespace tumblr_downloader
         private void backgroundWorker1_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             timer1.Stop();
+            timer2.Start();
             progressBar.Maximum = allImages.Count;
             totalImagesLbl.Text = allImages.Count.ToString();
+            
             DownloadFile();
+        }
+
+        private void CheckForEmptyFiles()
+        {
+            if (allEmptyImages.Any())
+            {
+                var file = new System.IO.StreamWriter(AppSettings.Default.downlaodpath + @"\badimages.txt", true);
+                
+
+               allEmptyImages =   allEmptyImages.Distinct().ToList();
+                for (int i = 0; i < allEmptyImages.Count; i++)
+                {
+                    //set the file path of the original image
+                    string FilePath = AppSettings.Default.downlaodpath + @"\" + allEmptyImages[i].Segments.Last().ToString();
+                    //delete teh original if it exists
+                    if (File.Exists(FilePath))
+                    {
+                        File.Delete(FilePath);
+                    }
+                }
+                for (int i = 0; i < allEmptyImages.Count; i++)
+                {
+                    WebClient client = new WebClient();
+                    //transform the uri to the medium quality link
+                    allEmptyImages[i] = new Uri(allEmptyImages[i].AbsoluteUri.Replace("1280", "500"));
+                    FileInfo FilePath = new FileInfo(AppSettings.Default.downlaodpath + @"\" + allEmptyImages[i].Segments.Last().ToString());
+
+                        
+                    //and finally download the new medium quality image
+                  
+                    client.DownloadFileAsync(allEmptyImages[i], FilePath.FullName, allEmptyImages[i]);
+                    file.WriteLine(allEmptyImages[i]);
+                }
+
+                file.Close();
+                timer2.Stop();
+            }
+    
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            if (progressBar.Value == progressBar.Maximum)
+            {
+                CheckForEmptyFiles();
+            }
         }
     }
 }

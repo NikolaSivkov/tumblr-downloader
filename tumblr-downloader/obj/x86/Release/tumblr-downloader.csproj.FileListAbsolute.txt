@@ -14,3 +14,18 @@ G:\visual studio 2010\Projects\tumblr-downloader\tumblr-downloader\bin\Release\t
 G:\visual studio 2010\Projects\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.application
 G:\visual studio 2010\Projects\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.exe.manifest
 G:\visual studio 2010\Projects\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.application
+C:\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.exe.config
+C:\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.exe.manifest
+C:\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.application
+C:\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.exe
+C:\tumblr-downloader\tumblr-downloader\bin\Release\tumblr-downloader.pdb
+C:\tumblr-downloader\tumblr-downloader\bin\Release\Hammock.ClientProfile.dll
+C:\tumblr-downloader\tumblr-downloader\bin\Release\Hammock.ClientProfile.pdb
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.csprojResolveAssemblyReference.cache
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr_downloader.Form1.resources
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr_downloader.Properties.Resources.resources
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.csproj.GenerateResource.Cache
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.exe.manifest
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.application
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.exe
+C:\tumblr-downloader\tumblr-downloader\obj\x86\Release\tumblr-downloader.pdb
