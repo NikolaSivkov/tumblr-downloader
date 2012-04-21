@@ -201,7 +201,7 @@ namespace tumblr_downloader
                 for (int i = 0; i < allEmptyImages.Count; i++)
                 {
                     WebClient client = new WebClient();
-                    //transform the uri to the medium quality link
+                    //transform the uri to the medium quality link 
                     allEmptyImages[i] = new Uri(allEmptyImages[i].AbsoluteUri.Replace("1280", "500"));
                     FileInfo FilePath = new FileInfo(AppSettings.Default.downlaodpath + @"\" + allEmptyImages[i].Segments.Last().ToString());
 
